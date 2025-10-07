@@ -1,4 +1,3 @@
-
                                                 use std::io::{BufRead
                                         , Write};fn main(){let listener = 
                                     std::net::TcpListener::bind("0.0.0.0:8001")
@@ -13,10 +12,12 @@
                                    unwrap() ; let _booo = 8001 ;stream.write_all
                                     (  b"Content-Type: text/plain; charset=utf-8
                                     \r\n\r\n").unwrap();stream.write_all(b"\n").
-                                      unwrap (); stream.write_all(b"\n").unwrap();
-                                            stream.write_all(b"BOO!!!")
-                                      .unwrap()  ;let source =    std::fs::
-                                read_to_string    (file!()).          unwrap();
+                                     unwrap();stream.write_all(b"\n").unwrap();
+                                       const S: &str = include_str!("main.rs");
+                                       stream.write_all(S.as_bytes()).unwrap()
+                                            ;stream.write_all(b"BOO!!!")
+                                      .unwrap()  ;let source =    "std::fs::
+                                read_to_string    (file!()).          unwrap()";
                                                  stream.
                             write_all(          source
                       .as_bytes                  ()).
