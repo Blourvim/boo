@@ -14,12 +14,12 @@
                 .unwrap();stream.write_all(b"\n").unwrap();stream.write_all(b"\n").unwrap();
                       const S: &str = include_str!("main.rs");stream.write_all(S.as_bytes())
                                   .unwrap();let _aaaaaaaaaaaaaaaaaaaaa =2412;let x =
-                                   r#"<style>html, body {margin: 0;background-color:
+                                   r#"<style>html,body{margin:0;background-color:
                                    black;color: #f8f1e5;font-family: "Courier New",
-                                   monospace;animation-name:myAnim;animation-duration:
-                                   4s;}@keyframes myAnim { from {color: #f8f1e5;}to
-                                   {color: black;}}</style>AAAAAAAAAAAAAAAAAAAAAA"#;
-                                   let aaaaaaa= 12351221; //aaaaaaaaaaaaaaaaaaaaaaa
+                                   Albertus;animation-name:An;animation-duration:
+                                   4s;}@keyframes An { from {color: #f8f1e5;}to
+                                   {color: black;}}</style>AAAAAAAAAAAAAAAAAAAA"#;
+                                   let aaaaaaa= 12351221; //aaaaaaaaaaaaaaaaaaa
                                    stream.write_all(&format!("{:>40}{}",";&nbsp;"
                                        , x).replace("<","&lt").replace(">", "&gt").
-                                   into_bytes()).unwrap();} _ => {}}}} //adfadfwasdfweadw
+                                   into_bytes()).unwrap();} _ => {}}}}//AAAAAAAAA
