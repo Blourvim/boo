@@ -13,17 +13,13 @@
                    stream         .write_all(b"Content-Type: text/html; charset=utf-8\r\n\r\n")
                 .unwrap();stream.write_all(b"\n").unwrap();stream.write_all(b"\n").unwrap();
                       const S: &str = include_str!("main.rs");stream.write_all(S.as_bytes())
-                                     .unwrap();let x = r#"/*<style>html, body {margin: 0;
-                                       background-color:black;color: #f8f1e5;
-                                       font-family: "Courier New", monospace;
-                                          animation-name:myAnimation;
-                                           animation-duration:4s;}
-                                          @keyframes myAnimation {
-                                        from {color: #f8f1e5;}
-                                        to {color: black;}}
-                                          </style> */"#;
-                                stream.write_all("<pre>".as_bytes()).unwrap();
-                                stream.write_all("<ayayayaya".as_bytes()).unwrap();
-                                stream.write_all(x.as_bytes()).unwrap();
-                                stream.write_all("</pre>".as_bytes()).unwrap();
-                                        } _ => {}}}}
+                                  .unwrap();let _aaaaaaaaaaaaaaaaaaaaa =2412;let x =
+                                   r#"<style>html, body {margin: 0;background-color:
+                                   black;color: #f8f1e5;font-family: "Courier New",
+                                   monospace;animation-name:myAnim;animation-duration:
+                                   4s;}@keyframes myAnim { from {color: #f8f1e5;}to
+                                   {color: black;}}</style>AAAAAAAAAAAAAAAAAAAAAA"#;
+                                   let aaaaaaa= 12351221; //aaaaaaaaaaaaaaaaaaaaaaa
+                                   stream.write_all(&format!("{:>40}{}",";&nbsp;"
+                                       , x).replace("<","&lt").replace(">", "&gt").
+                                   into_bytes()).unwrap();} _ => {}}}} //adfadfwasdfweadw
