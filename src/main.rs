@@ -6,7 +6,7 @@
                                   flatten()         {let mut rdr        = std::io::
                                   BufReader         ::new(&mut           stream);let  
                                   mut list           = String ::          new();rdr.
-                                  read_line         (&mut list)         .unwrap();   
+                                  read_line         (&mut list)         .unwrap();   //<h1 style="position:absolute">BOO!</h1>
                                   let lsl = list.trim(); let _= 0;match lsl.split
                 (' ').            collect::<Vec<_>>().as_slice(){["GET",  _,"HTTP/1.1"]       =>{stream
               .write_all          (b"HTTP/1.1 200 OK           \r\n").unwrap();        let _8001=1;
