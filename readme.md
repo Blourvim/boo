@@ -1,6 +1,10 @@
 # Boo! 👻
 
-A spooky TCP quine(ish) that prints its own source code kind of (and ASCII skull) when visited. It is not very polished but a fun midnight project regardless
+A spooky TCP [quine](https://en.wikipedia.org/wiki/Quine_(computing))ish that prints its own source code kind of (and ASCII ghost) when visited.
+
+It is not very polished but a fun midnight project regardless
+
+This is also a [polyglot](https://en.wikipedia.org/wiki/Polyglot_(computing))
 
 
 ## Usage
